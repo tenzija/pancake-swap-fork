@@ -302,7 +302,7 @@ contract BEP20 is Context, IBEP20, Ownable {
 	}
 }
 
-contract CakeToken is BEP20("tenzijaSwap Token", "tCake") {
+contract CakeToken is BEP20("tenzija Swap Token", "tCake") {
 
 	function mint(address _to, uint256 _amount) public onlyOwner {
 		_mint(_to, _amount);
