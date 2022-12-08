@@ -836,5 +836,7 @@ contract MasterChef is Ownable {
 		devaddr = _devaddr;
 	}
 
-	function helloObsidian() public pure returns(string memory);
+	function helloObsidian() public pure returns(string memory) {
+		return "tenzija#1516: hello world!";
+	}
 }
